@@ -1,0 +1,19 @@
+Package: toolboxDekuple
+Title: Provide a list of functions to use in the Dekuple context
+Version: 1.0.0
+Authors@R: c(
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID")),
+    person("Frédéric", "Lambda", role = "ctb")
+           )
+Description: Give a list of functions that can be useful in the Dekuple context. Such as computing an age or marginal frequencies.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.0
+Suggests: 
+    testthat
+Imports: 
+    assertthat,
+    lubridate,
+    magrittr
